@@ -30,7 +30,7 @@ public class SnackMenu {
 		
 		if(result.equals("y")) {
 			System.out.println(scr.confirmData());
-		} else {
+		} else if(result.equals("n")) {
 			
 		}
 		

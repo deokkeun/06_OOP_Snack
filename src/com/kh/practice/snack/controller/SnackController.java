@@ -9,7 +9,6 @@ public class SnackController {
 	
 	public SnackController() {}
 	
-	
 	public String saveData(String kind, String name, String flavor, int numOf, int price) {
 		
 		s.setKine(kind);

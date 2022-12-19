@@ -19,13 +19,6 @@ public class Snack {
 		this.price = price;
 	}
 	
-
-	
-	
-	public String getInformation() {
-		return this.kind + "(" + this.name + " - " + this.flavor + ") " + this.numOf + "개 " + this.price + "원";
-	}
-	
 	
 	public String getKind() {
 		return kind;
@@ -68,9 +61,9 @@ public class Snack {
 	}
 	
 	
-	
-	
-	
+	public String getInformation() {
+		return this.kind + "(" + this.name + " - " + this.flavor + ") " + this.numOf + "개 " + this.price + "원";
+	}
 	
 
 }
